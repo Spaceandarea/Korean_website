@@ -1,0 +1,56 @@
+.text {
+	border-radius: 10px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*border-width: 1px;    /* толщина 3px */
+	/*border-style: solid;  /* в виде линии */
+	/*border-color: black;     /* красный цвет */ 
+	/*min-height: 400px;*/
+	font-size: 20px;
+	margin: 5px auto auto auto;
+    width: 65%;
+    padding: 17px;
+	margin-top: 25px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
+}
+.zagolovoc {
+	margin: 25px auto 5px auto;
+	border-radius: 10px;
+	justify-content: space-between;
+	width: 65%;
+	padding: 0 10px 0 10px;
+	min-height: 50px;
+	padding: 17px;
+	/*border-width: 1px;    /* толщина 3px */
+	/*border-style: solid;  /* в виде линии */
+	/*border-color: black;    /* красный цвет */
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
+}
+h2 {
+	text-align: center;
+	font-size: 23px;
+}
+h3 {
+	text-align: center; 
+	font-size: 25px;
+}
+.padeg {
+	padding: 17px;
+}
+.spisok {
+	padding: 17px;
+}
+.it-will-be-white {
+	color: white;
+}
+.u {
+	padding: 0 0 0 10px;
+}
+.y {
+	padding: 40px 0 0 0;
+}
+.itwillbewhite {
+        color: white;
+}
+
+

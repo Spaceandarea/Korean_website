@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CSS.css" rel="stylesheet">
+<link href="CSS grammer.css" rel="stylesheet">
+<link href="account.css" rel="stylesheet">
+	<title>Корейский с нуля до 1급</title>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <span class="menu">Меню</span>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="html.html">Главная </a>
+  <a href="курс.html">Курс</a>
+  <a href="СЛОВА__ВСЕ.html">Все слова</a>
+  <div class = "lichkab">
+  <a href="#">Материалы</a>
+  </div>
+</div>
+
+
+ <div class = "open">
+ <div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" class = "ooopen">☰ open</span>
+	<div class = "y">
+        <div id = 'top+name'>
+            <div id = 'name_account'> Имя пользователя </div>
+        </div>
+        <div id = 'table'> <!-- table ----------------->
+            <div>
+                <table border=""> 
+                    <!--1 строчечка-->
+                    <tr>
+                        <!--1 столбик--><td class = ""></td>
+                        <!--2 столбик--><td class = ""></td>
+                        <!--3 столбик--><td class = ""></td>
+                        <!--4 столбик--><td class = ""></td>
+                        <!--5 столбик--><td class = ""></td>
+                        <!--6 столбик--><td class = ""></td>
+                        <!--7 столбик--><td class = ""></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div><!-- table ----------------->
+        
+        <div id = 'progress'> <!--progress ----------------->
+            <div class = 'strochka'>
+                <div class = 'name_task'>
+                        тест урока 10
+                </div>
+                <div class = 'result_progress'> 
+                        пройдено на столько-то %
+                </div>
+            </div>
+        </div> <!--progress ----------------->
+        
+    </div>
+
+ 
+  
+    
+</div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft= "0px";
+}
+
+
+
+</script>
+     
+</body>
+</html> 

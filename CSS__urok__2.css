@@ -1,0 +1,17 @@
+.photo {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.center {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.itwillbewhite {
+    color: white;
+    font-size: 10px;
+}
+.primery {
+    margin-left: 20px;
+}
